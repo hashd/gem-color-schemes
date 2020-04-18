@@ -1,0 +1,25 @@
+{
+    "name": "ember",
+    "displayName": "ember",
+    "description": "Easy on your eyes, light color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "hashd",
+    "repository": {
+        "url": "http://github.com/hashd/gem-color-schemes"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ember Color theme",
+                "uiTheme": "vs",
+                "path": "./themes/Ember Color theme-color-theme.json"
+            }
+        ]
+    }
+}
