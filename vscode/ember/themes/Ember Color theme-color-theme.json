@@ -11,17 +11,22 @@
 		"tab.border": "#AAA",
 		"tab.inactiveModifiedBorder": "#2b6cc2",
 		"sideBar.background": "#FFFFFF",
-		"sideBarSectionHeader.foreground": "#D32674",
+		"sideBarSectionHeader.foreground": "#724BB2",
 		"sideBarSectionHeader.background": "#EEEEEE",
-		"sideBarSectionHeader.border": "#D32674",
-		"sideBarTitle.foreground": "#D32674",
+		"sideBarSectionHeader.border": "#724BB2",
+		"sideBarTitle.foreground": "#724BB2",
 		"list.activeSelectionBackground": "#D32674",
 		"activityBar.background": "#222222",
-		"activityBar.activeBorder": "#ffb5d6",
-		"activityBar.foreground": "#ffb5d6",
+		"activityBar.activeBorder": "#ccacff",
+		"activityBar.foreground": "#ccacff",
 		"activityBar.inactiveForeground": "#AAA",
 		"gitDecoration.modifiedResourceForeground": "#2b6cc2",
-		"sideBar.border": "#D32674"
+		"sideBar.border": "#724BB2",
+		"editor.selectionHighlightBackground": "#fff8d3",
+		"editor.selectionBackground": "#fee6ff",
+		"editorGutter.background": "#fcfcfc",
+		"editorIndentGuide.background": "#f0f0f0",
+		"minimap.background": "#fcfcfc"
 	},
 	"tokenColors": [
 		{
@@ -160,7 +165,7 @@
 			],
 			"settings": {
 				"foreground": "#00A29A",
-				"fontStyle": "bold"
+				"fontStyle": "italic"
 			}
 		},
 		{
