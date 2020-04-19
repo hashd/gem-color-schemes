@@ -2,14 +2,26 @@
 	"name": "Ember Color theme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#fefefe",
+		"editor.background": "#FEFEFE",
 		"editor.foreground": "#333333",
-		"sideBar.background": "#fafafa",
 		"tab.activeBorderTop": "#D32674",
 		"tab.activeForeground": "#D32674",
-		"tab.inactiveForeground": "#555",
-		"tab.inactiveBackground": "#eee",
-		"sideBar.border": "#ccc"
+		"tab.inactiveForeground": "#333",
+		"tab.inactiveBackground": "#DDD",
+		"tab.border": "#AAA",
+		"tab.inactiveModifiedBorder": "#2b6cc2",
+		"sideBar.background": "#FFFFFF",
+		"sideBarSectionHeader.foreground": "#D32674",
+		"sideBarSectionHeader.background": "#EEEEEE",
+		"sideBarSectionHeader.border": "#D32674",
+		"sideBarTitle.foreground": "#D32674",
+		"list.activeSelectionBackground": "#D32674",
+		"activityBar.background": "#222222",
+		"activityBar.activeBorder": "#ffb5d6",
+		"activityBar.foreground": "#ffb5d6",
+		"activityBar.inactiveForeground": "#AAA",
+		"gitDecoration.modifiedResourceForeground": "#2b6cc2",
+		"sideBar.border": "#D32674"
 	},
 	"tokenColors": [
 		{
@@ -57,7 +69,7 @@
 			],
 			"settings": {
 				"foreground": "#4474BE",
-				"fontStyle": "italic bold"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -82,7 +94,7 @@
 			],
 			"settings": {
 				"foreground": "#D32674",
-				"fontStyle": "bold"
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -93,7 +105,7 @@
 			],
 			"settings": {
 				"foreground": "#D32674",
-				"fontStyle": "bold"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -132,11 +144,23 @@
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
-				"support.class"
+				"support.class",
+				"storage.modifier.import",
+				"storage.modifier.package"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#7A3E9D"
+				"foreground": "#181FA7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"storage.type.annotation"
+			],
+			"settings": {
+				"foreground": "#00A29A",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -187,7 +211,10 @@
 		},
 		{
 			"name": "Strings: Symbols",
-			"scope": "constant.other.symbol",
+			"scope": [
+				"constant.other.symbol",
+				"keyword.other.unit"
+			],
 			"settings": {
 				"foreground": "#0086B3"
 			}
@@ -220,14 +247,14 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#91B3E0"
+				"foreground": "#087ba8"
 			}
 		},
 		{
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#D32674"
 			}
 		},
 		{
@@ -238,7 +265,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#91B3E0"
+				"foreground": "#181FA7"
 			}
 		},
 		{
@@ -260,7 +287,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#0086B3"
+				"foreground": "#D32674"
 			}
 		},
 		{

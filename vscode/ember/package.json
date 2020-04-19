@@ -1,8 +1,9 @@
 {
     "name": "ember",
-    "displayName": "ember",
+    "displayName": "Ember Color Theme",
     "description": "Easy on your eyes, light color theme",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.44.0"
     },
@@ -16,7 +17,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Ember Color theme",
+                "label": "Ember - Light",
                 "uiTheme": "vs",
                 "path": "./themes/Ember Color theme-color-theme.json"
             }
