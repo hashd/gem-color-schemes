@@ -2,7 +2,7 @@
     "name": "ember",
     "displayName": "Ember Color Theme",
     "description": "Easy on your eyes, light color theme",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.44.0"

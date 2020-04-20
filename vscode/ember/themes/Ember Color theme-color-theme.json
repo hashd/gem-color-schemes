@@ -4,13 +4,13 @@
 	"colors": {
 		"editor.background": "#FEFEFE",
 		"editor.foreground": "#333333",
-		"tab.activeBorderTop": "#D32674",
-		"tab.activeForeground": "#D32674",
+		"tab.activeBorderTop": "#724BB2",
+		"tab.activeForeground": "#724BB2",
 		"tab.inactiveForeground": "#333",
 		"tab.inactiveBackground": "#DDD",
 		"tab.border": "#AAA",
 		"tab.inactiveModifiedBorder": "#2b6cc2",
-		"sideBar.background": "#FFFFFF",
+		"sideBar.background": "#fcfcfc",
 		"sideBarSectionHeader.foreground": "#724BB2",
 		"sideBarSectionHeader.background": "#EEEEEE",
 		"sideBarSectionHeader.border": "#724BB2",
@@ -21,12 +21,13 @@
 		"activityBar.foreground": "#ccacff",
 		"activityBar.inactiveForeground": "#AAA",
 		"gitDecoration.modifiedResourceForeground": "#2b6cc2",
-		"sideBar.border": "#724BB2",
+		"sideBar.border": "#AAA",
 		"editor.selectionHighlightBackground": "#fff8d3",
-		"editor.selectionBackground": "#fee6ff",
-		"editorGutter.background": "#fcfcfc",
+		"editor.selectionBackground": "#e8ffd9",
+		"editorGutter.background": "#fafafa",
 		"editorIndentGuide.background": "#f0f0f0",
-		"minimap.background": "#fcfcfc"
+		"minimap.background": "#fafafa",
+		"editorLineNumber.foreground": "#724BB2"
 	},
 	"tokenColors": [
 		{
@@ -73,7 +74,7 @@
 				"comment.line"
 			],
 			"settings": {
-				"foreground": "#4474BE",
+				"foreground": "#2f67b1",
 				"fontStyle": "italic"
 			}
 		},
@@ -99,7 +100,7 @@
 			],
 			"settings": {
 				"foreground": "#D32674",
-				"fontStyle": "bold italic"
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -131,7 +132,16 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#333333"
+				"foreground": "#333"
+			}
+		},
+		{
+			"name": "Variable property",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#4b00ad"
 			}
 		},
 		{
@@ -172,7 +182,7 @@
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "#B52A1D"
+				"foreground": "#ce1100"
 			}
 		},
 		{
@@ -280,7 +290,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#00ad82"
 			}
 		},
 		{
@@ -292,7 +302,8 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#D32674"
+				"foreground": "#D32674",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -302,7 +313,8 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#7A3E9D",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
