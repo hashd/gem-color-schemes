@@ -374,7 +374,7 @@
 			"name": "Markup: Link",
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#9A5Cff"
 			}
 		},
 		{
@@ -398,7 +398,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#4B00AD"
 			}
 		},
 		{
@@ -412,7 +412,7 @@
 			"name": "Markup: Traceback",
 			"scope": "markup.traceback",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#A71D5D"
 			}
 		},
 		{
@@ -433,7 +433,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#087BA8"
 			}
 		},
 		{
@@ -443,7 +443,7 @@
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#D32674"
 			}
 		},
 		{
@@ -451,7 +451,15 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#A71D5D"
+			}
+		},
+		{
+			"name": "Markup Code Block",
+			"scope": "markup.fenced_code.block",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#eb5600"
 			}
 		},
 		{
