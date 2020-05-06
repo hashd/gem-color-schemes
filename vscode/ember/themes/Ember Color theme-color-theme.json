@@ -111,13 +111,22 @@
 			}
 		},
 		{
+			"name": "Class Names",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#4105ED"
+			}
+		},
+		{
 			"name": "Types",
 			"scope": [
 				"storage.type",
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#D32674",
+				"foreground": "#181FA7",
 				"fontStyle": "italic"
 			}
 		},
@@ -182,7 +191,7 @@
 			],
 			"settings": {
 				"foreground": "#00A29A",
-				"fontStyle": "italic"
+				"fontStyle": "bold italic"
 			}
 		},
 		{

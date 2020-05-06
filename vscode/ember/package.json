@@ -2,7 +2,7 @@
     "name": "ember",
     "displayName": "Ember Color Theme",
     "description": "Port of IntelliJ Theme of the same name",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.44.0"
