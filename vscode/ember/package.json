@@ -12,7 +12,7 @@
     ],
     "publisher": "hashd",
     "repository": {
-        "url": "http://github.com/hashd/gem-color-schemes"
+        "url": "https://github.com/hashd/gem-color-schemes"
     },
     "contributes": {
         "themes": [
