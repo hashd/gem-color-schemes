@@ -3,4 +3,10 @@
 Versioned and named as Gems
 
 ### Versions
-- Ember: Light and colorful color scheme that is pleasing on the eye
+
+##### Ember
+Light and colorful color scheme that is pleasing on the eye
+
+Available for:
+- Jetbrains suite
+- VSCode
