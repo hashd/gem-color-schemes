@@ -1,3 +1,6 @@
 # GEM Series
 
-Versioned and named as Gems. Only IntelliJ Series is live at the moment.
+Versioned and named as Gems
+
+### Versions
+- Ember: Light and colorful color scheme that is pleasing on the eye
